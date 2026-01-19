@@ -30,4 +30,19 @@ Example:
 provider "aws" {
   region = "us-east-1"
 }
+```
 
+Example – Launching an EC2 Instance with Resoruces:
+```
+resource "aws_instance" "web" {
+  ami           = "<AMI>"                     # Amazon Machine Image ID
+  instance_type = "t3.micro"                  # EC2 instance type
+
+  subnet_id               = "<SUBNET>"        # Subnet where instance will reside
+  vpc_security_group_ids  = ["<SECURITY_GROUP>"] # Attach security groups
+
+  tags = {
+    "Identity" = "<IDENTITY>"                 # Custom tag to identify the instance
+  }
+}
+```
