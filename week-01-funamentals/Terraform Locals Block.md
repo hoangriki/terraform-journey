@@ -125,7 +125,7 @@ ____________________________________________________
 
 Key Takeaways
 
-1.Locals help reduce repetition and improve maintainability
+1. Locals help reduce repetition and improve maintainability
 
 2. They are ideal for naming conventions and shared values
 
