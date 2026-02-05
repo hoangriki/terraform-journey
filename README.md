@@ -1,6 +1,6 @@
-# Terraform SRE Journey
+# Terraform Journey
 
-This repository documents my hands-on learning and projects as I prepare for a Site Reliability Engineering (SRE) role, with a focus on infrastructure automation, reliability, and production-ready practices.
+This repository documents my hands-on learning and projects as I prepare for a Infrastrucutre role, with a focus on infrastructure automation, reliability, and production-ready practices.
 
 The goal of this repo is to demonstrate **practical experience**, not just completed labs — including design decisions, mistakes, troubleshooting, and lessons learned along the way.
 
