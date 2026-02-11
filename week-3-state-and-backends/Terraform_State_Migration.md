@@ -278,5 +278,3 @@ terraform state list
 ```
 
 As part of this migration back to the `local` backend you will see that terraform created a `terraform.tfstate` file in which the state is now being managed.
-
-Congratulations! You have successfully migrated active state from `local` to `s3` to `remote` and back again. You are once again storing state locally within a `terraform.tfstate` file of your working directory. As you can see, Terraform makes it relatively easy to change your state backend configuration and migrate to the backend that is appropriate for your team.
