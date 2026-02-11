@@ -353,5 +353,3 @@ aws_instance.web_server: Modifications complete after 2s [id=i-0fdab85c96f92f0e9
 
 Apply complete! Resources: 0 added, 1 changed, 0 destroyed.
 ```
-
-![AWS Tag - Eliminate Drift](img/aws_tag_myapp_revert.png)
