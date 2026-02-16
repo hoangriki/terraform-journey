@@ -94,8 +94,8 @@ You may need to set the following environment variable:
 The unseal key and root token are displayed below in case you want to
 seal/unseal the Vault or re-authenticate.
 
-Unseal Key: 1zqTTWCHyAvEhTqOLurR2nQPeeoR1Sk2FMp95fRNEaU=
-Root Token: s.Oi1tQPY98uwWQ6HOf9T7Elkg
+Unseal Key: example
+Root Token: example
 
 Development mode should NOT be used in production installations!
 ```
